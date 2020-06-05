@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: .
+    image: UditaPodder2020/reverseproxy 
+  backend_user:
+    build:
+      context: ../../udacity-c3-restapi-user
+    image: UditaPodder2020/user
+  backend_feed:
+    build:
+      context: ../../udacity-c3-restapi-feed  
+    image: UditaPodder2020/feed
+  frontend:
+    build:
+      context: ../../udacity-c3-frontend  
+    image: UditaPodder2020/frontend
