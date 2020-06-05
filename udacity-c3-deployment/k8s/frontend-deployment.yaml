@@ -13,7 +13,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: UditaPodder2020/frontend
+      - image: uditapodder2020/frontend
         name: frontend
         imagePullPolicy: Always          
         ports:

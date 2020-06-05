@@ -12,7 +12,7 @@ spec:
         service: backend-feed
     spec:
       containers:
-      - image: UditaPodder2020/feed
+      - image: uditapodder2020/feed
         name: backend-feed
         imagePullPolicy: Always  
         resources:
